@@ -24,6 +24,6 @@ To compile the embeder:<br>
 `gcc minidlna-icon-embed.c -o minidlna-icon-embed`<br>
 
 To embed an png image just execute:<br>
-`minidlna-icon-extract <png file> output.bin`<br>
+`minidlna-icon-embed <png file> output.bin`<br>
 
 And finally copy the contents of this new file to the minidlna string array.
